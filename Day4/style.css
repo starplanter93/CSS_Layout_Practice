@@ -1,0 +1,84 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color: #dde1d4;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+}
+
+.first {
+  background-color: #dae7de;
+  color: #f44608;
+  font-size: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.second {
+  background-color: #008a69;
+  color: #dae7de;
+  font-size: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.third {
+  background-color: #f44608;
+  color: #dae7de;
+  font-size: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.forth {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+}
+
+.forth-first {
+  background-color: #f7abc5;
+  color: #f44608;
+  font-size: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.forth-second {
+  background-color: #ffc129;
+  color: #f44608;
+  font-size: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.forth-third {
+  background-color: #5f5fa9;
+  color: #dae7de;
+  font-size: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.forth-forth {
+  background-color: #f97374;
+  color: #dae7de;
+  font-size: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
